@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LTKUDemo_Example' do
+  pod 'LTKUDemo', :path => '../'
+
+  target 'LTKUDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

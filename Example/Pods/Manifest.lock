@@ -1,0 +1,16 @@
+PODS:
+  - LTKUDemo (0.1.0)
+
+DEPENDENCIES:
+  - LTKUDemo (from `../`)
+
+EXTERNAL SOURCES:
+  LTKUDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTKUDemo: 31c7bcb3a40ed4e8650f2eae9ed6f22ea1fb6682
+
+PODFILE CHECKSUM: a5af9e11d0c28dd88a71a3da5e26bea89053b747
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,22 @@
+{
+  "name": "LTKUDemo",
+  "version": "0.1.0",
+  "summary": "A short description of LTKUDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CathyLy/LTKUDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CathyLy": "ting.liu05@ele.me"
+  },
+  "source": {
+    "git": "https://github.com/CathyLy/LTKUDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LTKUDemo/Classes/**/*"
+}

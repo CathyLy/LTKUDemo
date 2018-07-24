@@ -1,0 +1,6 @@
+framework module LTKUDemo {
+  umbrella header "LTKUDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
