@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101FEC56F545219BA0C98DFF39754528 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDA1415FE0B8B56371C6A7C85E9BCD1 /* ReplaceMe.m */; };
+		1EFA707684C5092E689D0282362D9292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		21DAD848BFF4D687561C1057601028E8 /* Pods-LTKUDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1AD71AF831F2D84DC1A0E03BD6713 /* Pods-LTKUDemo_Tests-dummy.m */; };
-		22F3CD97097AC29AA5FDB7157CF2D4F8 /* LTKUDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9C5AEAC0F04A766B73F8E3B6975B0B /* LTKUDemo-dummy.m */; };
-		88375D0FB5F1076DBCAFAB6D04308D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A0F36C61FEA31393EF00D7AA4BA6C82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A4BEAA3FFD2042DE1EBE6067A734FD71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5435386650F72687AF28CF38602AAB6A /* LTKUDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FD62A3C141B6175AF8577ADA94C019 /* LTKUDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E10AF1565158BB1D90E8FAF05492E6B /* LTKUDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9C5AEAC0F04A766B73F8E3B6975B0B /* LTKUDemo-dummy.m */; };
+		88375D0FB5F1076DBCAFAB6D04308D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A4BEAA3FFD2042DE1EBE6067A734FD71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		B497D307158E69CE4A9A4677545AB5BE /* Pods-LTKUDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C40B3414B44D6B9E500C4729A7B0F5F1 /* Pods-LTKUDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D8459D0F9D506CD6095E6DB1AD303B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		D048BDFE9E6B2D10CC064BB802260C67 /* Pods-LTKUDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 188007B863CA81C66664DB0C28A99888 /* Pods-LTKUDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1634851715663FF0F3F258ECC4A6EC2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDA1415FE0B8B56371C6A7C85E9BCD1 /* ReplaceMe.m */; };
-		F2A161695498435F40258BF9208F8646 /* LTKUDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FD62A3C141B6175AF8577ADA94C019 /* LTKUDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD967D96D5128701A8D682F0C9029037 /* Pods-LTKUDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE34E6274570BE7D935B0FAE2A38C977 /* Pods-LTKUDemo_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B2C7E42EEEACF5A7D4288D55AD101C41;
+			remoteGlobalIDString = 99A74D77CF1C89AF03325EF0993D960E;
 			remoteInfo = LTKUDemo;
 		};
 /* End PBXContainerItemProxy section */
@@ -46,7 +47,6 @@
 		4428F3D98E02F2E508ED7F9303DE909F /* Pods-LTKUDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LTKUDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		55CDFDB202D14674C523A388D6BDC323 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6491D57C4882A772B087721AC4D9328D /* Pods-LTKUDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTKUDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		675CFE068DC42C302AC233CF32C99C36 /* Pods-LTKUDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTKUDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6A27D78B1EA1599842D7C02345194CDA /* Pods-LTKUDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LTKUDemo_Tests.modulemap"; sourceTree = "<group>"; };
 		755D6C946913DD38867C824E029F2447 /* Pods-LTKUDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LTKUDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,12 +62,14 @@
 		AD7319C41F57767EA813E0618F6F99F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE34E6274570BE7D935B0FAE2A38C977 /* Pods-LTKUDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTKUDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		B4B1FDBD61588D0730A4E2790E430A0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BAC1AD71AF831F2D84DC1A0E03BD6713 /* Pods-LTKUDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LTKUDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		BCDA1415FE0B8B56371C6A7C85E9BCD1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LTKUDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		BF9C5AEAC0F04A766B73F8E3B6975B0B /* LTKUDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTKUDemo-dummy.m"; sourceTree = "<group>"; };
 		C40B3414B44D6B9E500C4729A7B0F5F1 /* Pods-LTKUDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LTKUDemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		C68911330176F6066371293206AD227B /* Pods-LTKUDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LTKUDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C89E876A644DCEAB1A5D2F8FFF5EEE56 /* Pods_LTKUDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LTKUDemo_Tests.framework; path = "Pods-LTKUDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EF34BDD905B7EFE4C19657F24E0CF70F /* Pods-LTKUDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LTKUDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F4DC708574DADA70F2D15E9EEB46DE0F /* LTKUDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTKUDemo-prefix.pch"; sourceTree = "<group>"; };
 		FA10FB62794468C1A285B0CBE12BFC1B /* LTKUDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LTKUDemo.modulemap; sourceTree = "<group>"; };
@@ -75,19 +77,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2793D853C704B5EE074BCA8BE4041CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D8459D0F9D506CD6095E6DB1AD303B /* Foundation.framework in Frameworks */,
+				1EFA707684C5092E689D0282362D9292 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A24C1D27C4B0D8075D319C853E5B106 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4BEAA3FFD2042DE1EBE6067A734FD71 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		549E6B61524FB3D608FB6C164FC0FC60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0F36C61FEA31393EF00D7AA4BA6C82E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +105,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BE9C47CB6AF04BD746E00CF2BCC55BA6 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				F74BCB1EA3B45C3C5EB0ACEC31B9B315 /* Products */,
 				FABA639D6F8025DCA667C2905BD5D1CD /* Targets Support Files */,
 			);
@@ -145,28 +165,12 @@
 			path = "Example/Pods/Target Support Files/LTKUDemo";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BE9C47CB6AF04BD746E00CF2BCC55BA6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E4C4FE3C4E9FA2392A4E2FA7E05A49C8 /* LTKUDemo */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		E4C4FE3C4E9FA2392A4E2FA7E05A49C8 /* LTKUDemo */ = {
@@ -230,19 +234,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47B34B0AFB8A9D109974718A7A40A6C0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F2A161695498435F40258BF9208F8646 /* LTKUDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5FC316AE8304E548AADDBFCC832A7232 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B497D307158E69CE4A9A4677545AB5BE /* Pods-LTKUDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B47C781C3D64464BF133514BCAE2CA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5435386650F72687AF28CF38602AAB6A /* LTKUDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,13 +279,13 @@
 			productReference = C89E876A644DCEAB1A5D2F8FFF5EEE56 /* Pods_LTKUDemo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B2C7E42EEEACF5A7D4288D55AD101C41 /* LTKUDemo */ = {
+		99A74D77CF1C89AF03325EF0993D960E /* LTKUDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC25746DC494F70D955AD3AFFC783C91 /* Build configuration list for PBXNativeTarget "LTKUDemo" */;
+			buildConfigurationList = B1D56FDA04257C37A4CA0686C379E72E /* Build configuration list for PBXNativeTarget "LTKUDemo" */;
 			buildPhases = (
-				F108DCFE5A6C4938AB195B2DA7316CFA /* Sources */,
-				549E6B61524FB3D608FB6C164FC0FC60 /* Frameworks */,
-				47B34B0AFB8A9D109974718A7A40A6C0 /* Headers */,
+				8F81E66C27672730E83BA077B29BC6DB /* Sources */,
+				2793D853C704B5EE074BCA8BE4041CB6 /* Frameworks */,
+				7B47C781C3D64464BF133514BCAE2CA5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -331,7 +335,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2C7E42EEEACF5A7D4288D55AD101C41 /* LTKUDemo */,
+				99A74D77CF1C89AF03325EF0993D960E /* LTKUDemo */,
 				BA185677017B208E3E42E0262D54EA35 /* Pods-LTKUDemo_Example */,
 				37EDCA66012E4A96638968CB061CFBFE /* Pods-LTKUDemo_Tests */,
 			);
@@ -347,20 +351,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F81E66C27672730E83BA077B29BC6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E10AF1565158BB1D90E8FAF05492E6B /* LTKUDemo-dummy.m in Sources */,
+				101FEC56F545219BA0C98DFF39754528 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		947BC30B1BAB7642007B096E44EB65A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				21DAD848BFF4D687561C1057601028E8 /* Pods-LTKUDemo_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F108DCFE5A6C4938AB195B2DA7316CFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22F3CD97097AC29AA5FDB7157CF2D4F8 /* LTKUDemo-dummy.m in Sources */,
-				E1634851715663FF0F3F258ECC4A6EC2 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +374,7 @@
 		051416F4EFC72901C68EAA3BABD822DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LTKUDemo;
-			target = B2C7E42EEEACF5A7D4288D55AD101C41 /* LTKUDemo */;
+			target = 99A74D77CF1C89AF03325EF0993D960E /* LTKUDemo */;
 			targetProxy = C15E41DA8F87BE5F4B8846AE908CB320 /* PBXContainerItemProxy */;
 		};
 		59062ED8C229CE9A664BC6BDB5D8106C /* PBXTargetDependency */ = {
@@ -382,6 +386,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		41727A76BA5AFCF47D45DE7431ACE354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63957B9E1D8D375EAAC1314DBEF6A12 /* LTKUDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LTKUDemo/LTKUDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTKUDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTKUDemo/LTKUDemo.modulemap";
+				PRODUCT_MODULE_NAME = LTKUDemo;
+				PRODUCT_NAME = LTKUDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		53AF6431F4A3B31DBA55EE3DD12B57DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6491D57C4882A772B087721AC4D9328D /* Pods-LTKUDemo_Example.release.xcconfig */;
@@ -416,7 +450,7 @@
 			};
 			name = Release;
 		};
-		8AD70AACFFF858FF879AA8CEB6A4D92D /* Release */ = {
+		703AE385319266134517C280010014A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A63957B9E1D8D375EAAC1314DBEF6A12 /* LTKUDemo.xcconfig */;
 			buildSettings = {
@@ -601,36 +635,6 @@
 			};
 			name = Release;
 		};
-		BDE6326401F377C9E68FD714AE26AEFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A63957B9E1D8D375EAAC1314DBEF6A12 /* LTKUDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LTKUDemo/LTKUDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LTKUDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LTKUDemo/LTKUDemo.modulemap";
-				PRODUCT_MODULE_NAME = LTKUDemo;
-				PRODUCT_NAME = LTKUDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C0176851B01264B72D7AA02786819511 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 755D6C946913DD38867C824E029F2447 /* Pods-LTKUDemo_Tests.release.xcconfig */;
@@ -719,20 +723,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		B1D56FDA04257C37A4CA0686C379E72E /* Build configuration list for PBXNativeTarget "LTKUDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41727A76BA5AFCF47D45DE7431ACE354 /* Debug */,
+				703AE385319266134517C280010014A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D615D3F823367AF89BC0C8765F74529D /* Build configuration list for PBXNativeTarget "Pods-LTKUDemo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD73C59B0B592E811DD12A53F9F4C750 /* Debug */,
 				53AF6431F4A3B31DBA55EE3DD12B57DE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC25746DC494F70D955AD3AFFC783C91 /* Build configuration list for PBXNativeTarget "LTKUDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BDE6326401F377C9E68FD714AE26AEFA /* Debug */,
-				8AD70AACFFF858FF879AA8CEB6A4D92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
